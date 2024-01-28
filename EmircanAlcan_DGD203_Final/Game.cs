@@ -329,7 +329,7 @@ namespace DGD203
                 }
                 else
                 {
-                    Console.WriteLine("You completed level " + _mapindex + " so you completed the game. Congratulations!\nWrite 'delete' to delete all of your progress or 'exit' to exit the game.\n");
+                    Console.WriteLine("You completed level " + (_mapindex + 1) + " so you completed the game. Congratulations!\nWrite 'delete' to delete all of your progress or 'exit' to exit the game.\n");
                 }
             }
         }
